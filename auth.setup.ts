@@ -17,8 +17,6 @@ if (await cookieButton.isVisible().catch(() => false)) {
 } else {
   console.log('Кнопка cookies не з’явилась.');
 }
-
-  //Зберігаємо сесію
   await context.storageState({ path: './data/storageState.json' });
   await browser.close();
 };
