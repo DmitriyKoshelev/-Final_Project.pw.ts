@@ -12,6 +12,7 @@ import { defineConfig, devices } from '@playwright/test';
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
+globalSetup: require.resolve('./auth.setup.ts'),
   testDir: './tests',
   /* Run tests in files in parallel */
   fullyParallel: true,
@@ -26,7 +27,7 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     headless: false, // Запуск в headless режимі
-    storageState: './auth/storageState.json',
+    storageState: '../data/storageState.json',
   userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36',
   locale: 'uk-UA',
   viewport: { width: 1280, height: 800 },
