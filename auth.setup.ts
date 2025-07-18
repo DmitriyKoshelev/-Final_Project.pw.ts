@@ -6,7 +6,7 @@ import fs from 'fs';
   const context = await browser.newContext();
   const page = await context.newPage();
 
-  // Перейти на сайт Zara, увійти або прийняти cookies
+  // Перейти на сайт Zara,увійти або прийняти cookies
   await page.goto('https://www.zara.com/ua');
 
   console.log('👉 Увійди або прийми cookies у ручному режимі, потім натисни Enter...');
