@@ -7,16 +7,16 @@ async function globalSetup () {
   const context = await browser.newContext();
   const page = await context.newPage();
 
-  // Перейти на сайт
   await page.goto('https://www.zara.com/ua');
 
-  //Автоматично прийняти cookies, якщо банер з’явився
-  const acceptCookiesSelector = 'button:has-text("Усі прийняти")';
+  const cookieButton = page.getByRole('button', { name: 'Дозволити всі файли cookie' });
 
-  if (await page.locator(acceptCookiesSelector).isVisible({ timeout: 5000 }).catch(() => false)) {
-    await page.click(acceptCookiesSelector);
-    console.log('Cookies прийняті автоматично.');
-  }
+if (await cookieButton.isVisible().catch(() => false)) {
+  await cookieButton.click();
+  console.log('Cookies прийняті.');
+} else {
+  console.log('Кнопка cookies не з’явилась.');
+}
 
   //Зберігаємо сесію
   await context.storageState({ path: './data/storageState.json' });
