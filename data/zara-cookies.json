@@ -1,0 +1,79 @@
+[
+  {
+    "name": "ak_bmsc",
+    "value": "F8854BEC8FE443399D6D336B080CCAAE~000000000000000000000000000000~YAAQHgxAFyq8BsyXAQAARR96/xzsKmQnnt9BYNOAn6DfnmZkjCoEheVQUo2ssXGnZfBF6KyJm3TCaznn169FTeHfaNOqN6ACnfjHAHR9tYuRxBhFxqeQCaT4TeEWI+XvnL/1DWjO+7CaxVJBoRqEp2LLdmoYRaQlmyxcE1iHxEHrDUC6LCgi8Uoyv8Kkzi9/g5CCLWgvAKiyoqLN5d1Jnmr2ZPrkAHbm6X88PbS3+eTij7qLtileFmvJ1TtP0gT/BTKYB1RhCeo1RDNM8kn5r3Dt8eo9eNYE87pMIvZKbujjAzV+dCYrZPzKba/6uM8ERlPkoN0f81EXKfbaU2aDyCqrMNX7YbEHFSj2hQotHgd6Ei8wzryLKqc5HPWh6weSZ1VOIscgldPFtw3bkAGLRsAGu8Abzjl+PMVmpermitvdq+s7yyjyevpzgmfX4+eXKw==",
+    "domain": "https://www.zara.com/ua/",
+    "path": "/",
+    "expires": 1752345083.867953,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_UserReference",
+    "value": "925faa3ff1a057b4b3ed01fdb1ce2a40",
+    "domain": ".zara.com"
+  },
+
+  {
+    "value": {
+      "eventName": "PageHit",
+      "geo": {
+        "country": "UA"
+      },
+      "device": {
+        "type": "desktop",
+        "os": "windows",
+        "osVersion": "10",
+        "language": "ru_RU",
+        "clientId": "910932104.1752337534",
+        "colorScheme": "light",
+        "locationPermission": false
+      },
+      "utm": null,
+      "identity": {
+        "token": "oDpjk602CWuA52TG4DCdhn93B9Y3hBZ9amCAxFLQqTE=",
+        "kind": "registered",
+        "userId": "2003341097113"
+      },
+      "referrer": null,
+      "privacy-consent": {
+        "consentedDate": "2025-07-12T15:55:24.654Z",
+        "consentCategories": "C0001:1,C0002:1,C0003:1,C0004:1"
+      },
+      "version": "1.0.2",
+      "tenant": "za",
+      "user-agent": {
+        "isEmbedded": false,
+        "platform": "web",
+        "appName": "com.inditex.zara",
+        "appVersion": "6.78.0",
+        "uaString": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+        "UAITXID": "af9cdb08e15f29a0385826450773bb2a85e43657dd1f616f74facbcdc8a88299",
+        "ITXPERSONALIZE": "1b8b0110f0ba4e81d9a95291d3d74c91"
+      },
+      "payload": {
+        "timestamp": 1752410648564,
+        "sessionId": "cfcd03040e2f2f31d4bc12e83d64cf50",
+        "context": {
+          "storeId": 11767,
+          "displayLanguage": "uk_UA",
+          "pageType": "MY_ACCOUNT_ORDERS_LIST_ONLINE",
+          "categoryId": 0,
+          "brandId": 1,
+          "section": "MAN",
+          "universe": "MAN"
+        }
+      },
+      "technical": {
+        "search-performance": {},
+        "navigation": {
+          "url": "https://www.zara.com/ua"
+        }
+      },
+      "extra": {
+        "gaCookie": "GA1.1.910932104.1752337534"
+      }
+    }
+  }
+]
